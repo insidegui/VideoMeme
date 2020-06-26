@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2091D824A645F200309C06 /* VideoMemeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2091D724A645F200309C06 /* VideoMemeApp.swift */; };
+		DD2091DA24A645F200309C06 /* VideoMemeDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2091D924A645F200309C06 /* VideoMemeDocument.swift */; };
+		DD2091DC24A645F200309C06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2091DB24A645F200309C06 /* ContentView.swift */; };
+		DD2091DE24A645F800309C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2091DD24A645F800309C06 /* Assets.xcassets */; };
+		DD2091E124A645F800309C06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2091E024A645F800309C06 /* Preview Assets.xcassets */; };
+		DD2091EC24A6487500309C06 /* VideoRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2091EA24A6487500309C06 /* VideoRenderer.swift */; };
+		DD2091ED24A6487500309C06 /* VideoComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2091EB24A6487500309C06 /* VideoComposition.swift */; };
+		DD2091EF24A648D000309C06 /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2091EE24A648D000309C06 /* VideoViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD2091D424A645F200309C06 /* VideoMeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoMeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2091D724A645F200309C06 /* VideoMemeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMemeApp.swift; sourceTree = "<group>"; };
+		DD2091D924A645F200309C06 /* VideoMemeDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMemeDocument.swift; sourceTree = "<group>"; };
+		DD2091DB24A645F200309C06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD2091DD24A645F800309C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2091E024A645F800309C06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD2091E224A645F800309C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2091E324A645F800309C06 /* VideoMeme.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoMeme.entitlements; sourceTree = "<group>"; };
+		DD2091EA24A6487500309C06 /* VideoRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRenderer.swift; sourceTree = "<group>"; };
+		DD2091EB24A6487500309C06 /* VideoComposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoComposition.swift; sourceTree = "<group>"; };
+		DD2091EE24A648D000309C06 /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2091D124A645F200309C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2091CB24A645F200309C06 = {
+			isa = PBXGroup;
+			children = (
+				DD2091D624A645F200309C06 /* VideoMeme */,
+				DD2091D524A645F200309C06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2091D524A645F200309C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2091D424A645F200309C06 /* VideoMeme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2091D624A645F200309C06 /* VideoMeme */ = {
+			isa = PBXGroup;
+			children = (
+				DD2091E924A6486200309C06 /* Rendering */,
+				DD2091D724A645F200309C06 /* VideoMemeApp.swift */,
+				DD2091D924A645F200309C06 /* VideoMemeDocument.swift */,
+				DD2091EE24A648D000309C06 /* VideoViewModel.swift */,
+				DD2091DB24A645F200309C06 /* ContentView.swift */,
+				DD2091DD24A645F800309C06 /* Assets.xcassets */,
+				DD2091E224A645F800309C06 /* Info.plist */,
+				DD2091E324A645F800309C06 /* VideoMeme.entitlements */,
+				DD2091DF24A645F800309C06 /* Preview Content */,
+			);
+			path = VideoMeme;
+			sourceTree = "<group>";
+		};
+		DD2091DF24A645F800309C06 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD2091E024A645F800309C06 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD2091E924A6486200309C06 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				DD2091EB24A6487500309C06 /* VideoComposition.swift */,
+				DD2091EA24A6487500309C06 /* VideoRenderer.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD2091D324A645F200309C06 /* VideoMeme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2091E624A645F800309C06 /* Build configuration list for PBXNativeTarget "VideoMeme" */;
+			buildPhases = (
+				DD2091D024A645F200309C06 /* Sources */,
+				DD2091D124A645F200309C06 /* Frameworks */,
+				DD2091D224A645F200309C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoMeme;
+			productName = VideoMeme;
+			productReference = DD2091D424A645F200309C06 /* VideoMeme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2091CC24A645F200309C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DD2091D324A645F200309C06 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = DD2091CF24A645F200309C06 /* Build configuration list for PBXProject "VideoMeme" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD2091CB24A645F200309C06;
+			productRefGroup = DD2091D524A645F200309C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2091D324A645F200309C06 /* VideoMeme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2091D224A645F200309C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2091E124A645F800309C06 /* Preview Assets.xcassets in Resources */,
+				DD2091DE24A645F800309C06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2091D024A645F200309C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2091ED24A6487500309C06 /* VideoComposition.swift in Sources */,
+				DD2091EC24A6487500309C06 /* VideoRenderer.swift in Sources */,
+				DD2091DA24A645F200309C06 /* VideoMemeDocument.swift in Sources */,
+				DD2091D824A645F200309C06 /* VideoMemeApp.swift in Sources */,
+				DD2091EF24A648D000309C06 /* VideoViewModel.swift in Sources */,
+				DD2091DC24A645F200309C06 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD2091E424A645F800309C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD2091E524A645F800309C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DD2091E724A645F800309C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoMeme/VideoMeme.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoMeme/Preview Content\"";
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VideoMeme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.rambo.VideoMeme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD2091E824A645F800309C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoMeme/VideoMeme.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoMeme/Preview Content\"";
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VideoMeme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.rambo.VideoMeme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2091CF24A645F200309C06 /* Build configuration list for PBXProject "VideoMeme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2091E424A645F800309C06 /* Debug */,
+				DD2091E524A645F800309C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2091E624A645F800309C06 /* Build configuration list for PBXNativeTarget "VideoMeme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2091E724A645F800309C06 /* Debug */,
+				DD2091E824A645F800309C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2091CC24A645F200309C06 /* Project object */;
+}
